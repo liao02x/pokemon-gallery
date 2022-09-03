@@ -1,5 +1,5 @@
 import {Box, Center, Heading, Image, Tag, Text, Wrap, WrapItem} from "@chakra-ui/react";
-import {getTitle, getUrl} from "utils";
+import {getTitle, getUrl} from "@/utils";
 
 
 export default function PokemonCard ({pokemon, setSelected}) {

@@ -19,8 +19,8 @@ import {
 } from "@chakra-ui/react";
 import RadarChart from "react-svg-radar-chart";
 
-import {getEvo, getPokemon} from "api";
-import {getTitle, getUrl} from "utils";
+import {getEvo, getPokemon} from "@/api";
+import {getTitle, getUrl} from "@/utils";
 
 const Title = ({children}) => <Heading as="h3" size="md" mb="2">{children}</Heading>;
 

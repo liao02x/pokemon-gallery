@@ -10,11 +10,11 @@ import {
   VStack
 } from "@chakra-ui/react";
 
-import PokemonList from "components/PokemonList";
-import PokemonDetail from "components/PokemonDetail";
-import TypeSelect from "components/TypeSelect";
+import PokemonList from "@/components/PokemonList";
+import PokemonDetail from "@/components/PokemonDetail";
+import TypeSelect from "@/components/TypeSelect";
 
-import {getPokemons} from "api";
+import {getPokemons} from "@/api";
 
 
 export default function App () {
